@@ -1,6 +1,8 @@
 """
 	Esse programa vai tentar adivinhar os numeros da lotofacil.
 """
+import os
+
 from random import randint
 
 
@@ -17,3 +19,5 @@ while len(jogo) < 15:
 jogo.sort()
 
 print(jogo)
+
+os.system("pause")
